@@ -1,0 +1,62 @@
+origin:
+    name: origin
+    grids: i_grids.txt
+    elements: i_elements.txt 
+    mesh_type: 3
+    press_type: 1
+    plane: 0
+    data_dir: i_press
+    files:
+        - dpress_1.txt
+        - dpress_2.txt
+        - dpress_3.txt
+        - dpress_4.txt
+        - dpress_5.txt
+        - dpress_6.txt
+        - dpress_7.txt
+        - dpress_8.txt
+        - dpress_9.txt
+        - dpress_10.txt
+        - dpress_11.txt
+        - dpress_12.txt
+        - dpress_13.txt
+        - dpress_14.txt
+        - dpress_15.txt
+        - dpress_16.txt
+        - dpress_17.txt
+        - dpress_18.txt
+        - dpress_19.txt
+        - dpress_20.txt
+        - dpress_21.txt
+
+
+target:
+    name: target
+    grids: o_grids.txt
+    elements: o_elements.txt 
+    mesh_type: 4
+    press_type: 0
+    plane: 0
+    data_dir: o_press
+    files:
+        - o_dpress_1.txt
+        - o_dpress_2.txt
+        - o_dpress_3.txt
+        - o_dpress_4.txt
+        - o_dpress_5.txt
+        - o_dpress_6.txt
+        - o_dpress_7.txt
+        - o_dpress_8.txt
+        - o_dpress_9.txt
+        - o_dpress_10.txt
+        - o_dpress_11.txt
+        - o_dpress_12.txt
+        - o_dpress_13.txt
+        - o_dpress_14.txt
+        - o_dpress_15.txt
+        - o_dpress_16.txt
+        - o_dpress_17.txt
+        - o_dpress_18.txt
+        - o_dpress_19.txt
+        - o_dpress_20.txt
+        - o_dpress_21.txt
