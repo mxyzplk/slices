@@ -44,7 +44,6 @@ class IDWInterpolator:
     
     
     def calc_distances(self, a1, a2):
-
         for i in range(self.ng):
             d1 = a1 - self.g[i, 0]
             d2 = a2 - self.g[i, 1]

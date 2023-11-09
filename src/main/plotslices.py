@@ -6,10 +6,10 @@ import numpy as np
 class Slices:
     def __init__(self, le, te, vec, npt):
         
-        self.npt = int(npt)
-        self.pt = np.empty((self.npt + 1, 3))
+        self.npt = int(npt + 1)
+        self.pt = np.empty((self.npt, 3))
         
-        for i in range(self.npt + 1):
+        for i in range(self.npt):
             self.pt[i, 0] = le[0] + i * vec[0]
             self.pt[i, 1] = le[1] + i * vec[1]
             self.pt[i, 2] = le[2] + i * vec[2]
@@ -34,7 +34,9 @@ class Slices:
         
         colors = ['r', 'g', 'b', 'c', 'm']
         
-        plt.figure(figsize=(8, 6))
+        plt.clf()
+        plt.close('all')
+        plt.figure(figsize=(14, 6))
         
         for i in range(ndata):
             plt.plot(self.pt[:, int(direction[i])], press[:, i], marker='o', linestyle='-', color=colors[i], label=labels[i])
